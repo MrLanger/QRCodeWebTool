@@ -1,0 +1,1004 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7233A6521EEE3E2A0044570A /* CardReasultTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7233A6511EEE3E2A0044570A /* CardReasultTableViewController.swift */; };
+		7233A6551EEE3E450044570A /* CardReasultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7233A6531EEE3E450044570A /* CardReasultTableViewCell.swift */; };
+		7233A6561EEE3E450044570A /* CardReasultTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7233A6541EEE3E450044570A /* CardReasultTableViewCell.xib */; };
+		7233A6581EEE4B410044570A /* yinlian.png in Resources */ = {isa = PBXBuildFile; fileRef = 7233A6571EEE4B410044570A /* yinlian.png */; };
+		7233A6A61EEE6B8A0044570A /* IQNSArray+Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7233A6901EEE6B8A0044570A /* IQNSArray+Sort.swift */; };
+		7233A6A71EEE6B8A0044570A /* IQUIScrollView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7233A6911EEE6B8A0044570A /* IQUIScrollView+Additions.swift */; };
+		7233A6A81EEE6B8A0044570A /* IQUITextFieldView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7233A6921EEE6B8A0044570A /* IQUITextFieldView+Additions.swift */; };
+		7233A6A91EEE6B8A0044570A /* IQUIView+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7233A6931EEE6B8A0044570A /* IQUIView+Hierarchy.swift */; };
+		7233A6AA1EEE6B8A0044570A /* IQUIViewController+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7233A6941EEE6B8A0044570A /* IQUIViewController+Additions.swift */; };
+		7233A6AB1EEE6B8A0044570A /* IQUIWindow+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7233A6951EEE6B8A0044570A /* IQUIWindow+Hierarchy.swift */; };
+		7233A6AC1EEE6B8A0044570A /* IQKeyboardManagerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7233A6971EEE6B8A0044570A /* IQKeyboardManagerConstants.swift */; };
+		7233A6AD1EEE6B8A0044570A /* IQKeyboardManagerConstantsInternal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7233A6981EEE6B8A0044570A /* IQKeyboardManagerConstantsInternal.swift */; };
+		7233A6AE1EEE6B8A0044570A /* IQKeyboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7233A6991EEE6B8A0044570A /* IQKeyboardManager.swift */; };
+		7233A6AF1EEE6B8A0044570A /* IQKeyboardReturnKeyHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7233A69B1EEE6B8A0044570A /* IQKeyboardReturnKeyHandler.swift */; };
+		7233A6B01EEE6B8A0044570A /* IQTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7233A69D1EEE6B8A0044570A /* IQTextView.swift */; };
+		7233A6B11EEE6B8A0044570A /* IQBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7233A69F1EEE6B8A0044570A /* IQBarButtonItem.swift */; };
+		7233A6B21EEE6B8A0044570A /* IQPreviousNextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7233A6A01EEE6B8A0044570A /* IQPreviousNextView.swift */; };
+		7233A6B31EEE6B8A0044570A /* IQTitleBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7233A6A11EEE6B8A0044570A /* IQTitleBarButtonItem.swift */; };
+		7233A6B41EEE6B8A0044570A /* IQToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7233A6A21EEE6B8A0044570A /* IQToolbar.swift */; };
+		7233A6B51EEE6B8A0044570A /* IQUIView+IQKeyboardToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7233A6A31EEE6B8A0044570A /* IQUIView+IQKeyboardToolbar.swift */; };
+		7233A6B61EEE6B8A0044570A /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7233A6A51EEE6B8A0044570A /* IQKeyboardManager.bundle */; };
+		7233A6B81EEE70630044570A /* IDCardScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7233A6B71EEE70620044570A /* IDCardScanViewController.swift */; };
+		7233A6BC1EEE8DD80044570A /* libUMessage_Sdk_1.5.0a.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7233A6BA1EEE8DD80044570A /* libUMessage_Sdk_1.5.0a.a */; };
+		7233A6BE1EEE8EA70044570A /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7233A6BD1EEE8EA70044570A /* UserNotifications.framework */; };
+		7233A6C11EEE8F600044570A /* UserNotificationsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7233A6C01EEE8F600044570A /* UserNotificationsUI.framework */; };
+		7252B3F61EEA935F00D1495C /* ScanResultModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7252B3E51EEA935F00D1495C /* ScanResultModel.m */; };
+		7252B3F71EEA935F00D1495C /* UIImage+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 7252B3E71EEA935F00D1495C /* UIImage+Extend.m */; };
+		7252B3F81EEA935F00D1495C /* BankCardSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 7252B3E91EEA935F00D1495C /* BankCardSearch.m */; };
+		7252B3F91EEA935F00D1495C /* RectManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7252B3EB1EEA935F00D1495C /* RectManager.m */; };
+		7252B3FA1EEA935F00D1495C /* ScanManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7252B3ED1EEA935F00D1495C /* ScanManager.m */; };
+		7252B3FB1EEA935F00D1495C /* ScanManagerControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 7252B3EF1EEA935F00D1495C /* ScanManagerControl.m */; };
+		7252B3FC1EEA935F00D1495C /* ScanManagerInitialize.m in Sources */ = {isa = PBXBuildFile; fileRef = 7252B3F11EEA935F00D1495C /* ScanManagerInitialize.m */; };
+		7252B3FD1EEA935F00D1495C /* ScanBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7252B3F31EEA935F00D1495C /* ScanBaseManager.m */; };
+		726F90E71EEA9E290096F684 /* libbankcard.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 726F90E61EEA9E290096F684 /* libbankcard.a */; };
+		726F90E91EEAA0280096F684 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 726F90E81EEAA0280096F684 /* Foundation.framework */; };
+		726F90EB1EEAA02F0096F684 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 726F90EA1EEAA02F0096F684 /* UIKit.framework */; };
+		726F90ED1EEAA2670096F684 /* BankScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726F90EC1EEAA2670096F684 /* BankScanViewController.swift */; };
+		726F914A1EEAA32A0096F684 /* IDOverLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 726F91471EEAA32A0096F684 /* IDOverLayerView.m */; };
+		726F914B1EEAA32A0096F684 /* OverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 726F91491EEAA32A0096F684 /* OverlayView.m */; };
+		728743B71ECC3E2E0029520C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728743B61ECC3E2E0029520C /* AppDelegate.swift */; };
+		728743BC1ECC3E2F0029520C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 728743BA1ECC3E2F0029520C /* Main.storyboard */; };
+		728743BE1ECC3E2F0029520C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 728743BD1ECC3E2F0029520C /* Assets.xcassets */; };
+		728743C11ECC3E2F0029520C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 728743BF1ECC3E2F0029520C /* LaunchScreen.storyboard */; };
+		728743CC1ECC3E2F0029520C /* QRCodeWebToolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728743CB1ECC3E2F0029520C /* QRCodeWebToolTests.swift */; };
+		728743D71ECC3E2F0029520C /* QRCodeWebToolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728743D61ECC3E2F0029520C /* QRCodeWebToolUITests.swift */; };
+		728743EC1ECC40350029520C /* LBXPermissions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728743E51ECC40350029520C /* LBXPermissions.swift */; };
+		728743ED1ECC40350029520C /* LBXScanLineAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728743E61ECC40350029520C /* LBXScanLineAnimation.swift */; };
+		728743EE1ECC40350029520C /* LBXScanNetAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728743E71ECC40350029520C /* LBXScanNetAnimation.swift */; };
+		728743EF1ECC40350029520C /* LBXScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728743E81ECC40350029520C /* LBXScanView.swift */; };
+		728743F01ECC40350029520C /* LBXScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728743E91ECC40350029520C /* LBXScanViewController.swift */; };
+		728743F11ECC40350029520C /* LBXScanViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728743EA1ECC40350029520C /* LBXScanViewStyle.swift */; };
+		728743F21ECC40350029520C /* LBXScanWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728743EB1ECC40350029520C /* LBXScanWrapper.swift */; };
+		728743F41ECC4C360029520C /* StyleListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728743F31ECC4C360029520C /* StyleListTableViewController.swift */; };
+		728743F61ECC4C920029520C /* ScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728743F51ECC4C920029520C /* ScanViewController.swift */; };
+		728743F81ECC54DE0029520C /* CodeScan.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 728743F71ECC54DE0029520C /* CodeScan.bundle */; };
+		72A425F51EEA3068000E9B2F /* zocr0.lib in Resources */ = {isa = PBXBuildFile; fileRef = 72A425F11EEA3068000E9B2F /* zocr0.lib */; };
+		72A425F61EEA3068000E9B2F /* libexidcardios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72A425F31EEA3068000E9B2F /* libexidcardios.a */; settings = {ATTRIBUTES = (Required, ); }; };
+		72A425FA1EEA32B3000E9B2F /* ScanBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A425F91EEA32B3000E9B2F /* ScanBaseViewController.swift */; };
+		72A425FC1EEA3345000E9B2F /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A425FB1EEA3345000E9B2F /* BaseViewController.swift */; };
+		72BB9B541EDE6EA100439921 /* photoShutter2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 72BB9B531EDE6EA100439921 /* photoShutter2.caf */; };
+		72BB9B561EDE732D00439921 /* Wechat.wav in Resources */ = {isa = PBXBuildFile; fileRef = 72BB9B551EDE732D00439921 /* Wechat.wav */; };
+		72BB9B581EDE988600439921 /* SysSoundListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BB9B571EDE988600439921 /* SysSoundListController.swift */; };
+		72D71A661ECD5AE200802F38 /* ScanResaultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D71A651ECD5AE200802F38 /* ScanResaultViewController.swift */; };
+		72D71A681ECD9C1700802F38 /* CreatCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D71A671ECD9C1700802F38 /* CreatCodeViewController.swift */; };
+		72D71A6A1ECDA2A700802F38 /* logo.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 72D71A691ECDA2A700802F38 /* logo.JPG */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		728743C81ECC3E2F0029520C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 728743AB1ECC3E2E0029520C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 728743B21ECC3E2E0029520C;
+			remoteInfo = QRCodeWebTool;
+		};
+		728743D31ECC3E2F0029520C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 728743AB1ECC3E2E0029520C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 728743B21ECC3E2E0029520C;
+			remoteInfo = QRCodeWebTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7233A6511EEE3E2A0044570A /* CardReasultTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardReasultTableViewController.swift; sourceTree = "<group>"; };
+		7233A6531EEE3E450044570A /* CardReasultTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardReasultTableViewCell.swift; sourceTree = "<group>"; };
+		7233A6541EEE3E450044570A /* CardReasultTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardReasultTableViewCell.xib; sourceTree = "<group>"; };
+		7233A6571EEE4B410044570A /* yinlian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yinlian.png; sourceTree = "<group>"; };
+		7233A6901EEE6B8A0044570A /* IQNSArray+Sort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQNSArray+Sort.swift"; sourceTree = "<group>"; };
+		7233A6911EEE6B8A0044570A /* IQUIScrollView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIScrollView+Additions.swift"; sourceTree = "<group>"; };
+		7233A6921EEE6B8A0044570A /* IQUITextFieldView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUITextFieldView+Additions.swift"; sourceTree = "<group>"; };
+		7233A6931EEE6B8A0044570A /* IQUIView+Hierarchy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIView+Hierarchy.swift"; sourceTree = "<group>"; };
+		7233A6941EEE6B8A0044570A /* IQUIViewController+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIViewController+Additions.swift"; sourceTree = "<group>"; };
+		7233A6951EEE6B8A0044570A /* IQUIWindow+Hierarchy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIWindow+Hierarchy.swift"; sourceTree = "<group>"; };
+		7233A6971EEE6B8A0044570A /* IQKeyboardManagerConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardManagerConstants.swift; sourceTree = "<group>"; };
+		7233A6981EEE6B8A0044570A /* IQKeyboardManagerConstantsInternal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardManagerConstantsInternal.swift; sourceTree = "<group>"; };
+		7233A6991EEE6B8A0044570A /* IQKeyboardManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardManager.swift; sourceTree = "<group>"; };
+		7233A69A1EEE6B8A0044570A /* IQKeyboardManagerSwift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerSwift.h; sourceTree = "<group>"; };
+		7233A69B1EEE6B8A0044570A /* IQKeyboardReturnKeyHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardReturnKeyHandler.swift; sourceTree = "<group>"; };
+		7233A69D1EEE6B8A0044570A /* IQTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQTextView.swift; sourceTree = "<group>"; };
+		7233A69F1EEE6B8A0044570A /* IQBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQBarButtonItem.swift; sourceTree = "<group>"; };
+		7233A6A01EEE6B8A0044570A /* IQPreviousNextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQPreviousNextView.swift; sourceTree = "<group>"; };
+		7233A6A11EEE6B8A0044570A /* IQTitleBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQTitleBarButtonItem.swift; sourceTree = "<group>"; };
+		7233A6A21EEE6B8A0044570A /* IQToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQToolbar.swift; sourceTree = "<group>"; };
+		7233A6A31EEE6B8A0044570A /* IQUIView+IQKeyboardToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIView+IQKeyboardToolbar.swift"; sourceTree = "<group>"; };
+		7233A6A51EEE6B8A0044570A /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IQKeyboardManager.bundle; sourceTree = "<group>"; };
+		7233A6B71EEE70620044570A /* IDCardScanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IDCardScanViewController.swift; sourceTree = "<group>"; };
+		7233A6BA1EEE8DD80044570A /* libUMessage_Sdk_1.5.0a.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libUMessage_Sdk_1.5.0a.a; sourceTree = "<group>"; };
+		7233A6BB1EEE8DD80044570A /* UMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMessage.h; sourceTree = "<group>"; };
+		7233A6BD1EEE8EA70044570A /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		7233A6BF1EEE8ED60044570A /* QRCodeWebTool.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = QRCodeWebTool.entitlements; sourceTree = "<group>"; };
+		7233A6C01EEE8F600044570A /* UserNotificationsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotificationsUI.framework; path = System/Library/Frameworks/UserNotificationsUI.framework; sourceTree = SDKROOT; };
+		7252B3E41EEA935F00D1495C /* ScanResultModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanResultModel.h; sourceTree = "<group>"; };
+		7252B3E51EEA935F00D1495C /* ScanResultModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanResultModel.m; sourceTree = "<group>"; };
+		7252B3E61EEA935F00D1495C /* UIImage+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extend.h"; sourceTree = "<group>"; };
+		7252B3E71EEA935F00D1495C /* UIImage+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extend.m"; sourceTree = "<group>"; };
+		7252B3E81EEA935F00D1495C /* BankCardSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BankCardSearch.h; sourceTree = "<group>"; };
+		7252B3E91EEA935F00D1495C /* BankCardSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BankCardSearch.m; sourceTree = "<group>"; };
+		7252B3EA1EEA935F00D1495C /* RectManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RectManager.h; sourceTree = "<group>"; };
+		7252B3EB1EEA935F00D1495C /* RectManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RectManager.m; sourceTree = "<group>"; };
+		7252B3EC1EEA935F00D1495C /* ScanManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanManager.h; sourceTree = "<group>"; };
+		7252B3ED1EEA935F00D1495C /* ScanManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanManager.m; sourceTree = "<group>"; };
+		7252B3EE1EEA935F00D1495C /* ScanManagerControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanManagerControl.h; sourceTree = "<group>"; };
+		7252B3EF1EEA935F00D1495C /* ScanManagerControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanManagerControl.m; sourceTree = "<group>"; };
+		7252B3F01EEA935F00D1495C /* ScanManagerInitialize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanManagerInitialize.h; sourceTree = "<group>"; };
+		7252B3F11EEA935F00D1495C /* ScanManagerInitialize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanManagerInitialize.m; sourceTree = "<group>"; };
+		7252B3F21EEA935F00D1495C /* ScanBaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanBaseManager.h; sourceTree = "<group>"; };
+		7252B3F31EEA935F00D1495C /* ScanBaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanBaseManager.m; sourceTree = "<group>"; };
+		726F90E61EEA9E290096F684 /* libbankcard.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libbankcard.a; sourceTree = "<group>"; };
+		726F90E81EEAA0280096F684 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		726F90EA1EEAA02F0096F684 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		726F90EC1EEAA2670096F684 /* BankScanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankScanViewController.swift; sourceTree = "<group>"; };
+		726F91461EEAA32A0096F684 /* IDOverLayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDOverLayerView.h; sourceTree = "<group>"; };
+		726F91471EEAA32A0096F684 /* IDOverLayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDOverLayerView.m; sourceTree = "<group>"; };
+		726F91481EEAA32A0096F684 /* OverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlayView.h; sourceTree = "<group>"; };
+		726F91491EEAA32A0096F684 /* OverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverlayView.m; sourceTree = "<group>"; };
+		728743B31ECC3E2E0029520C /* QRCodeWebTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRCodeWebTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		728743B61ECC3E2E0029520C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		728743BB1ECC3E2F0029520C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		728743BD1ECC3E2F0029520C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		728743C01ECC3E2F0029520C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		728743C21ECC3E2F0029520C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		728743C71ECC3E2F0029520C /* QRCodeWebToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QRCodeWebToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		728743CB1ECC3E2F0029520C /* QRCodeWebToolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeWebToolTests.swift; sourceTree = "<group>"; };
+		728743CD1ECC3E2F0029520C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		728743D21ECC3E2F0029520C /* QRCodeWebToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QRCodeWebToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		728743D61ECC3E2F0029520C /* QRCodeWebToolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeWebToolUITests.swift; sourceTree = "<group>"; };
+		728743D81ECC3E2F0029520C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		728743E51ECC40350029520C /* LBXPermissions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBXPermissions.swift; sourceTree = "<group>"; };
+		728743E61ECC40350029520C /* LBXScanLineAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBXScanLineAnimation.swift; sourceTree = "<group>"; };
+		728743E71ECC40350029520C /* LBXScanNetAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBXScanNetAnimation.swift; sourceTree = "<group>"; };
+		728743E81ECC40350029520C /* LBXScanView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBXScanView.swift; sourceTree = "<group>"; };
+		728743E91ECC40350029520C /* LBXScanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBXScanViewController.swift; sourceTree = "<group>"; };
+		728743EA1ECC40350029520C /* LBXScanViewStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBXScanViewStyle.swift; sourceTree = "<group>"; };
+		728743EB1ECC40350029520C /* LBXScanWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBXScanWrapper.swift; sourceTree = "<group>"; };
+		728743F31ECC4C360029520C /* StyleListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyleListTableViewController.swift; sourceTree = "<group>"; };
+		728743F51ECC4C920029520C /* ScanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanViewController.swift; sourceTree = "<group>"; };
+		728743F71ECC54DE0029520C /* CodeScan.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CodeScan.bundle; sourceTree = "<group>"; };
+		72A425E21EEA2FFD000E9B2F /* QRCodeWebTool-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QRCodeWebTool-Bridging-Header.h"; sourceTree = "<group>"; };
+		72A425E91EEA3068000E9B2F /* BankCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BankCard.h; sourceTree = "<group>"; };
+		72A425EA1EEA3068000E9B2F /* exbankcard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = exbankcard.h; sourceTree = "<group>"; };
+		72A425EC1EEA3068000E9B2F /* exbankcardcore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = exbankcardcore.h; sourceTree = "<group>"; };
+		72A425EF1EEA3068000E9B2F /* commondef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = commondef.h; sourceTree = "<group>"; };
+		72A425F11EEA3068000E9B2F /* zocr0.lib */ = {isa = PBXFileReference; lastKnownFileType = file; path = zocr0.lib; sourceTree = "<group>"; };
+		72A425F21EEA3068000E9B2F /* excards.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = excards.h; sourceTree = "<group>"; };
+		72A425F31EEA3068000E9B2F /* libexidcardios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libexidcardios.a; sourceTree = "<group>"; };
+		72A425F91EEA32B3000E9B2F /* ScanBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanBaseViewController.swift; sourceTree = "<group>"; };
+		72A425FB1EEA3345000E9B2F /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		72A426001EEA440F000E9B2F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		72A426081EEA7DE1000E9B2F /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		72BB9B531EDE6EA100439921 /* photoShutter2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = photoShutter2.caf; sourceTree = "<group>"; };
+		72BB9B551EDE732D00439921 /* Wechat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Wechat.wav; sourceTree = "<group>"; };
+		72BB9B571EDE988600439921 /* SysSoundListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SysSoundListController.swift; sourceTree = "<group>"; };
+		72D71A611ECD3FD300802F38 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		72D71A631ECD3FF600802F38 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		72D71A651ECD5AE200802F38 /* ScanResaultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanResaultViewController.swift; sourceTree = "<group>"; };
+		72D71A671ECD9C1700802F38 /* CreatCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatCodeViewController.swift; sourceTree = "<group>"; };
+		72D71A691ECDA2A700802F38 /* logo.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = logo.JPG; path = ../logo.JPG; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		728743B01ECC3E2E0029520C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7233A6C11EEE8F600044570A /* UserNotificationsUI.framework in Frameworks */,
+				7233A6BE1EEE8EA70044570A /* UserNotifications.framework in Frameworks */,
+				7233A6BC1EEE8DD80044570A /* libUMessage_Sdk_1.5.0a.a in Frameworks */,
+				726F90EB1EEAA02F0096F684 /* UIKit.framework in Frameworks */,
+				726F90E91EEAA0280096F684 /* Foundation.framework in Frameworks */,
+				72A425F61EEA3068000E9B2F /* libexidcardios.a in Frameworks */,
+				726F90E71EEA9E290096F684 /* libbankcard.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		728743C41ECC3E2F0029520C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		728743CF1ECC3E2F0029520C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7233A6481EEE24530044570A /* Until */ = {
+			isa = PBXGroup;
+			children = (
+				726F91461EEAA32A0096F684 /* IDOverLayerView.h */,
+				726F91471EEAA32A0096F684 /* IDOverLayerView.m */,
+				7252B3E61EEA935F00D1495C /* UIImage+Extend.h */,
+				7252B3E71EEA935F00D1495C /* UIImage+Extend.m */,
+				7252B3E81EEA935F00D1495C /* BankCardSearch.h */,
+				7252B3E91EEA935F00D1495C /* BankCardSearch.m */,
+				7252B3EA1EEA935F00D1495C /* RectManager.h */,
+				7252B3EB1EEA935F00D1495C /* RectManager.m */,
+			);
+			name = Until;
+			sourceTree = "<group>";
+		};
+		7233A6591EEE65300044570A /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				7233A6B91EEE8DD80044570A /* UMessage_Sdk_1.5.0a */,
+				7233A68E1EEE6B8A0044570A /* IQKeyboardManagerSwift */,
+			);
+			name = Lib;
+			sourceTree = "<group>";
+		};
+		7233A68E1EEE6B8A0044570A /* IQKeyboardManagerSwift */ = {
+			isa = PBXGroup;
+			children = (
+				7233A68F1EEE6B8A0044570A /* Categories */,
+				7233A6961EEE6B8A0044570A /* Constants */,
+				7233A6991EEE6B8A0044570A /* IQKeyboardManager.swift */,
+				7233A69A1EEE6B8A0044570A /* IQKeyboardManagerSwift.h */,
+				7233A69B1EEE6B8A0044570A /* IQKeyboardReturnKeyHandler.swift */,
+				7233A69C1EEE6B8A0044570A /* IQTextView */,
+				7233A69E1EEE6B8A0044570A /* IQToolbar */,
+				7233A6A41EEE6B8A0044570A /* Resources */,
+			);
+			path = IQKeyboardManagerSwift;
+			sourceTree = "<group>";
+		};
+		7233A68F1EEE6B8A0044570A /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				7233A6901EEE6B8A0044570A /* IQNSArray+Sort.swift */,
+				7233A6911EEE6B8A0044570A /* IQUIScrollView+Additions.swift */,
+				7233A6921EEE6B8A0044570A /* IQUITextFieldView+Additions.swift */,
+				7233A6931EEE6B8A0044570A /* IQUIView+Hierarchy.swift */,
+				7233A6941EEE6B8A0044570A /* IQUIViewController+Additions.swift */,
+				7233A6951EEE6B8A0044570A /* IQUIWindow+Hierarchy.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		7233A6961EEE6B8A0044570A /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				7233A6971EEE6B8A0044570A /* IQKeyboardManagerConstants.swift */,
+				7233A6981EEE6B8A0044570A /* IQKeyboardManagerConstantsInternal.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		7233A69C1EEE6B8A0044570A /* IQTextView */ = {
+			isa = PBXGroup;
+			children = (
+				7233A69D1EEE6B8A0044570A /* IQTextView.swift */,
+			);
+			path = IQTextView;
+			sourceTree = "<group>";
+		};
+		7233A69E1EEE6B8A0044570A /* IQToolbar */ = {
+			isa = PBXGroup;
+			children = (
+				7233A69F1EEE6B8A0044570A /* IQBarButtonItem.swift */,
+				7233A6A01EEE6B8A0044570A /* IQPreviousNextView.swift */,
+				7233A6A11EEE6B8A0044570A /* IQTitleBarButtonItem.swift */,
+				7233A6A21EEE6B8A0044570A /* IQToolbar.swift */,
+				7233A6A31EEE6B8A0044570A /* IQUIView+IQKeyboardToolbar.swift */,
+			);
+			path = IQToolbar;
+			sourceTree = "<group>";
+		};
+		7233A6A41EEE6B8A0044570A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7233A6A51EEE6B8A0044570A /* IQKeyboardManager.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7233A6B91EEE8DD80044570A /* UMessage_Sdk_1.5.0a */ = {
+			isa = PBXGroup;
+			children = (
+				7233A6BA1EEE8DD80044570A /* libUMessage_Sdk_1.5.0a.a */,
+				7233A6BB1EEE8DD80044570A /* UMessage.h */,
+			);
+			path = UMessage_Sdk_1.5.0a;
+			sourceTree = "<group>";
+		};
+		728743AA1ECC3E2E0029520C = {
+			isa = PBXGroup;
+			children = (
+				728743B51ECC3E2E0029520C /* QRCodeWebTool */,
+				728743CA1ECC3E2F0029520C /* QRCodeWebToolTests */,
+				728743D51ECC3E2F0029520C /* QRCodeWebToolUITests */,
+				728743B41ECC3E2E0029520C /* Products */,
+				72D71A601ECD3FD200802F38 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		728743B41ECC3E2E0029520C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				728743B31ECC3E2E0029520C /* QRCodeWebTool.app */,
+				728743C71ECC3E2F0029520C /* QRCodeWebToolTests.xctest */,
+				728743D21ECC3E2F0029520C /* QRCodeWebToolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		728743B51ECC3E2E0029520C /* QRCodeWebTool */ = {
+			isa = PBXGroup;
+			children = (
+				7233A6BF1EEE8ED60044570A /* QRCodeWebTool.entitlements */,
+				7233A6591EEE65300044570A /* Lib */,
+				728743E41ECC40350029520C /* Source */,
+				728743B61ECC3E2E0029520C /* AppDelegate.swift */,
+				728743F31ECC4C360029520C /* StyleListTableViewController.swift */,
+				728743F51ECC4C920029520C /* ScanViewController.swift */,
+				72D71A651ECD5AE200802F38 /* ScanResaultViewController.swift */,
+				72D71A671ECD9C1700802F38 /* CreatCodeViewController.swift */,
+				72BB9B571EDE988600439921 /* SysSoundListController.swift */,
+				72A425F81EEA3290000E9B2F /* ScanCard */,
+				728743BA1ECC3E2F0029520C /* Main.storyboard */,
+				728743BD1ECC3E2F0029520C /* Assets.xcassets */,
+				728743BF1ECC3E2F0029520C /* LaunchScreen.storyboard */,
+				728743C21ECC3E2F0029520C /* Info.plist */,
+				72A425E21EEA2FFD000E9B2F /* QRCodeWebTool-Bridging-Header.h */,
+			);
+			path = QRCodeWebTool;
+			sourceTree = "<group>";
+		};
+		728743CA1ECC3E2F0029520C /* QRCodeWebToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				728743CB1ECC3E2F0029520C /* QRCodeWebToolTests.swift */,
+				728743CD1ECC3E2F0029520C /* Info.plist */,
+			);
+			path = QRCodeWebToolTests;
+			sourceTree = "<group>";
+		};
+		728743D51ECC3E2F0029520C /* QRCodeWebToolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				728743D61ECC3E2F0029520C /* QRCodeWebToolUITests.swift */,
+				728743D81ECC3E2F0029520C /* Info.plist */,
+			);
+			path = QRCodeWebToolUITests;
+			sourceTree = "<group>";
+		};
+		728743E41ECC40350029520C /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				72A425E61EEA3056000E9B2F /* resource */,
+				728743F71ECC54DE0029520C /* CodeScan.bundle */,
+				728743E51ECC40350029520C /* LBXPermissions.swift */,
+				728743E61ECC40350029520C /* LBXScanLineAnimation.swift */,
+				728743E71ECC40350029520C /* LBXScanNetAnimation.swift */,
+				728743E81ECC40350029520C /* LBXScanView.swift */,
+				728743E91ECC40350029520C /* LBXScanViewController.swift */,
+				728743EA1ECC40350029520C /* LBXScanViewStyle.swift */,
+				728743EB1ECC40350029520C /* LBXScanWrapper.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		72A425E61EEA3056000E9B2F /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				7233A6571EEE4B410044570A /* yinlian.png */,
+				72D71A691ECDA2A700802F38 /* logo.JPG */,
+				72BB9B531EDE6EA100439921 /* photoShutter2.caf */,
+				72BB9B551EDE732D00439921 /* Wechat.wav */,
+			);
+			name = resource;
+			sourceTree = "<group>";
+		};
+		72A425E71EEA3068000E9B2F /* libTool */ = {
+			isa = PBXGroup;
+			children = (
+				72A425E81EEA3068000E9B2F /* bank_io */,
+				72A425EE1EEA3068000E9B2F /* libexidcard */,
+			);
+			name = libTool;
+			path = ../libTool;
+			sourceTree = "<group>";
+		};
+		72A425E81EEA3068000E9B2F /* bank_io */ = {
+			isa = PBXGroup;
+			children = (
+				72A425E91EEA3068000E9B2F /* BankCard.h */,
+				72A425EA1EEA3068000E9B2F /* exbankcard.h */,
+				72A425EB1EEA3068000E9B2F /* exbankcardcore */,
+			);
+			path = bank_io;
+			sourceTree = "<group>";
+		};
+		72A425EB1EEA3068000E9B2F /* exbankcardcore */ = {
+			isa = PBXGroup;
+			children = (
+				72A425EC1EEA3068000E9B2F /* exbankcardcore.h */,
+				726F90E61EEA9E290096F684 /* libbankcard.a */,
+			);
+			path = exbankcardcore;
+			sourceTree = "<group>";
+		};
+		72A425EE1EEA3068000E9B2F /* libexidcard */ = {
+			isa = PBXGroup;
+			children = (
+				72A425EF1EEA3068000E9B2F /* commondef.h */,
+				72A425F01EEA3068000E9B2F /* dicts */,
+				72A425F21EEA3068000E9B2F /* excards.h */,
+				72A425F31EEA3068000E9B2F /* libexidcardios.a */,
+			);
+			path = libexidcard;
+			sourceTree = "<group>";
+		};
+		72A425F01EEA3068000E9B2F /* dicts */ = {
+			isa = PBXGroup;
+			children = (
+				72A425F11EEA3068000E9B2F /* zocr0.lib */,
+			);
+			path = dicts;
+			sourceTree = "<group>";
+		};
+		72A425F81EEA3290000E9B2F /* ScanCard */ = {
+			isa = PBXGroup;
+			children = (
+				72A425E71EEA3068000E9B2F /* libTool */,
+				72A425FD1EEA3D3B000E9B2F /* Tool */,
+				72A425FB1EEA3345000E9B2F /* BaseViewController.swift */,
+				72A425F91EEA32B3000E9B2F /* ScanBaseViewController.swift */,
+				726F90EC1EEAA2670096F684 /* BankScanViewController.swift */,
+				7233A6B71EEE70620044570A /* IDCardScanViewController.swift */,
+				7233A6511EEE3E2A0044570A /* CardReasultTableViewController.swift */,
+				7233A6531EEE3E450044570A /* CardReasultTableViewCell.swift */,
+				7233A6541EEE3E450044570A /* CardReasultTableViewCell.xib */,
+			);
+			path = ScanCard;
+			sourceTree = "<group>";
+		};
+		72A425FD1EEA3D3B000E9B2F /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				7233A6481EEE24530044570A /* Until */,
+				726F91481EEAA32A0096F684 /* OverlayView.h */,
+				726F91491EEAA32A0096F684 /* OverlayView.m */,
+				7252B3E41EEA935F00D1495C /* ScanResultModel.h */,
+				7252B3E51EEA935F00D1495C /* ScanResultModel.m */,
+				7252B3EC1EEA935F00D1495C /* ScanManager.h */,
+				7252B3ED1EEA935F00D1495C /* ScanManager.m */,
+				7252B3EE1EEA935F00D1495C /* ScanManagerControl.h */,
+				7252B3EF1EEA935F00D1495C /* ScanManagerControl.m */,
+				7252B3F01EEA935F00D1495C /* ScanManagerInitialize.h */,
+				7252B3F11EEA935F00D1495C /* ScanManagerInitialize.m */,
+				7252B3F21EEA935F00D1495C /* ScanBaseManager.h */,
+				7252B3F31EEA935F00D1495C /* ScanBaseManager.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		72D71A601ECD3FD200802F38 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7233A6C01EEE8F600044570A /* UserNotificationsUI.framework */,
+				7233A6BD1EEE8EA70044570A /* UserNotifications.framework */,
+				726F90EA1EEAA02F0096F684 /* UIKit.framework */,
+				726F90E81EEAA0280096F684 /* Foundation.framework */,
+				72A426081EEA7DE1000E9B2F /* CoreVideo.framework */,
+				72A426001EEA440F000E9B2F /* AVFoundation.framework */,
+				72D71A631ECD3FF600802F38 /* SafariServices.framework */,
+				72D71A611ECD3FD300802F38 /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		728743B21ECC3E2E0029520C /* QRCodeWebTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 728743DB1ECC3E2F0029520C /* Build configuration list for PBXNativeTarget "QRCodeWebTool" */;
+			buildPhases = (
+				728743AF1ECC3E2E0029520C /* Sources */,
+				728743B01ECC3E2E0029520C /* Frameworks */,
+				728743B11ECC3E2E0029520C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QRCodeWebTool;
+			productName = QRCodeWebTool;
+			productReference = 728743B31ECC3E2E0029520C /* QRCodeWebTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		728743C61ECC3E2F0029520C /* QRCodeWebToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 728743DE1ECC3E2F0029520C /* Build configuration list for PBXNativeTarget "QRCodeWebToolTests" */;
+			buildPhases = (
+				728743C31ECC3E2F0029520C /* Sources */,
+				728743C41ECC3E2F0029520C /* Frameworks */,
+				728743C51ECC3E2F0029520C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				728743C91ECC3E2F0029520C /* PBXTargetDependency */,
+			);
+			name = QRCodeWebToolTests;
+			productName = QRCodeWebToolTests;
+			productReference = 728743C71ECC3E2F0029520C /* QRCodeWebToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		728743D11ECC3E2F0029520C /* QRCodeWebToolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 728743E11ECC3E2F0029520C /* Build configuration list for PBXNativeTarget "QRCodeWebToolUITests" */;
+			buildPhases = (
+				728743CE1ECC3E2F0029520C /* Sources */,
+				728743CF1ECC3E2F0029520C /* Frameworks */,
+				728743D01ECC3E2F0029520C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				728743D41ECC3E2F0029520C /* PBXTargetDependency */,
+			);
+			name = QRCodeWebToolUITests;
+			productName = QRCodeWebToolUITests;
+			productReference = 728743D21ECC3E2F0029520C /* QRCodeWebToolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		728743AB1ECC3E2E0029520C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = besonit;
+				TargetAttributes = {
+					728743B21ECC3E2E0029520C = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = E33HG4676G;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					728743C61ECC3E2F0029520C = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 728743B21ECC3E2E0029520C;
+					};
+					728743D11ECC3E2F0029520C = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 728743B21ECC3E2E0029520C;
+					};
+				};
+			};
+			buildConfigurationList = 728743AE1ECC3E2E0029520C /* Build configuration list for PBXProject "QRCodeWebTool" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 728743AA1ECC3E2E0029520C;
+			productRefGroup = 728743B41ECC3E2E0029520C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				728743B21ECC3E2E0029520C /* QRCodeWebTool */,
+				728743C61ECC3E2F0029520C /* QRCodeWebToolTests */,
+				728743D11ECC3E2F0029520C /* QRCodeWebToolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		728743B11ECC3E2E0029520C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72BB9B541EDE6EA100439921 /* photoShutter2.caf in Resources */,
+				7233A6B61EEE6B8A0044570A /* IQKeyboardManager.bundle in Resources */,
+				728743C11ECC3E2F0029520C /* LaunchScreen.storyboard in Resources */,
+				728743BE1ECC3E2F0029520C /* Assets.xcassets in Resources */,
+				728743BC1ECC3E2F0029520C /* Main.storyboard in Resources */,
+				72A425F51EEA3068000E9B2F /* zocr0.lib in Resources */,
+				72D71A6A1ECDA2A700802F38 /* logo.JPG in Resources */,
+				7233A6561EEE3E450044570A /* CardReasultTableViewCell.xib in Resources */,
+				7233A6581EEE4B410044570A /* yinlian.png in Resources */,
+				72BB9B561EDE732D00439921 /* Wechat.wav in Resources */,
+				728743F81ECC54DE0029520C /* CodeScan.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		728743C51ECC3E2F0029520C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		728743D01ECC3E2F0029520C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		728743AF1ECC3E2E0029520C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7233A6B21EEE6B8A0044570A /* IQPreviousNextView.swift in Sources */,
+				72D71A661ECD5AE200802F38 /* ScanResaultViewController.swift in Sources */,
+				7233A6A81EEE6B8A0044570A /* IQUITextFieldView+Additions.swift in Sources */,
+				728743F11ECC40350029520C /* LBXScanViewStyle.swift in Sources */,
+				7233A6AA1EEE6B8A0044570A /* IQUIViewController+Additions.swift in Sources */,
+				7252B3F71EEA935F00D1495C /* UIImage+Extend.m in Sources */,
+				7252B3F81EEA935F00D1495C /* BankCardSearch.m in Sources */,
+				7233A6B41EEE6B8A0044570A /* IQToolbar.swift in Sources */,
+				72BB9B581EDE988600439921 /* SysSoundListController.swift in Sources */,
+				7233A6AE1EEE6B8A0044570A /* IQKeyboardManager.swift in Sources */,
+				7233A6521EEE3E2A0044570A /* CardReasultTableViewController.swift in Sources */,
+				7233A6AC1EEE6B8A0044570A /* IQKeyboardManagerConstants.swift in Sources */,
+				7252B3FB1EEA935F00D1495C /* ScanManagerControl.m in Sources */,
+				7252B3F91EEA935F00D1495C /* RectManager.m in Sources */,
+				7233A6AD1EEE6B8A0044570A /* IQKeyboardManagerConstantsInternal.swift in Sources */,
+				7252B3FA1EEA935F00D1495C /* ScanManager.m in Sources */,
+				7252B3FC1EEA935F00D1495C /* ScanManagerInitialize.m in Sources */,
+				728743ED1ECC40350029520C /* LBXScanLineAnimation.swift in Sources */,
+				7233A6AF1EEE6B8A0044570A /* IQKeyboardReturnKeyHandler.swift in Sources */,
+				7233A6AB1EEE6B8A0044570A /* IQUIWindow+Hierarchy.swift in Sources */,
+				728743EE1ECC40350029520C /* LBXScanNetAnimation.swift in Sources */,
+				72A425FC1EEA3345000E9B2F /* BaseViewController.swift in Sources */,
+				728743F41ECC4C360029520C /* StyleListTableViewController.swift in Sources */,
+				72A425FA1EEA32B3000E9B2F /* ScanBaseViewController.swift in Sources */,
+				7233A6A91EEE6B8A0044570A /* IQUIView+Hierarchy.swift in Sources */,
+				7233A6B01EEE6B8A0044570A /* IQTextView.swift in Sources */,
+				72D71A681ECD9C1700802F38 /* CreatCodeViewController.swift in Sources */,
+				726F90ED1EEAA2670096F684 /* BankScanViewController.swift in Sources */,
+				7233A6B31EEE6B8A0044570A /* IQTitleBarButtonItem.swift in Sources */,
+				728743F21ECC40350029520C /* LBXScanWrapper.swift in Sources */,
+				7233A6B51EEE6B8A0044570A /* IQUIView+IQKeyboardToolbar.swift in Sources */,
+				7233A6A61EEE6B8A0044570A /* IQNSArray+Sort.swift in Sources */,
+				7233A6551EEE3E450044570A /* CardReasultTableViewCell.swift in Sources */,
+				728743EC1ECC40350029520C /* LBXPermissions.swift in Sources */,
+				7252B3FD1EEA935F00D1495C /* ScanBaseManager.m in Sources */,
+				7233A6B81EEE70630044570A /* IDCardScanViewController.swift in Sources */,
+				726F914B1EEAA32A0096F684 /* OverlayView.m in Sources */,
+				7233A6A71EEE6B8A0044570A /* IQUIScrollView+Additions.swift in Sources */,
+				728743EF1ECC40350029520C /* LBXScanView.swift in Sources */,
+				7233A6B11EEE6B8A0044570A /* IQBarButtonItem.swift in Sources */,
+				726F914A1EEAA32A0096F684 /* IDOverLayerView.m in Sources */,
+				7252B3F61EEA935F00D1495C /* ScanResultModel.m in Sources */,
+				728743F61ECC4C920029520C /* ScanViewController.swift in Sources */,
+				728743B71ECC3E2E0029520C /* AppDelegate.swift in Sources */,
+				728743F01ECC40350029520C /* LBXScanViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		728743C31ECC3E2F0029520C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				728743CC1ECC3E2F0029520C /* QRCodeWebToolTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		728743CE1ECC3E2F0029520C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				728743D71ECC3E2F0029520C /* QRCodeWebToolUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		728743C91ECC3E2F0029520C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 728743B21ECC3E2E0029520C /* QRCodeWebTool */;
+			targetProxy = 728743C81ECC3E2F0029520C /* PBXContainerItemProxy */;
+		};
+		728743D41ECC3E2F0029520C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 728743B21ECC3E2E0029520C /* QRCodeWebTool */;
+			targetProxy = 728743D31ECC3E2F0029520C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		728743BA1ECC3E2F0029520C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				728743BB1ECC3E2F0029520C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		728743BF1ECC3E2F0029520C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				728743C01ECC3E2F0029520C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		728743D91ECC3E2F0029520C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		728743DA1ECC3E2F0029520C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		728743DC1ECC3E2F0029520C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = QRCodeWebTool/QRCodeWebTool.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = E33HG4676G;
+				ENABLE_BITCODE = NO;
+				ENABLE_TESTABILITY = NO;
+				INFOPLIST_FILE = QRCodeWebTool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/QRCodeWebTool/libTool/bank_io/exbankcardcore",
+					"$(PROJECT_DIR)/QRCodeWebTool/libTool/libexidcard",
+					"$(PROJECT_DIR)/QRCodeWebTool/ScanCard/Tool/IDAndBankCard/bank_io/exbankcardcore",
+					"$(PROJECT_DIR)/QRCodeWebTool/ScanCard/Tool/IDAndBankCard/libexidcard",
+					"$(PROJECT_DIR)/QRCodeWebTool/UMessage_Sdk_1.5.0a",
+				);
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.QRCodeWebTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "QRCodeWebTool/QRCodeWebTool-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		728743DD1ECC3E2F0029520C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = QRCodeWebTool/QRCodeWebTool.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = E33HG4676G;
+				ENABLE_BITCODE = NO;
+				ENABLE_TESTABILITY = NO;
+				INFOPLIST_FILE = QRCodeWebTool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/QRCodeWebTool/libTool/bank_io/exbankcardcore",
+					"$(PROJECT_DIR)/QRCodeWebTool/libTool/libexidcard",
+					"$(PROJECT_DIR)/QRCodeWebTool/ScanCard/Tool/IDAndBankCard/bank_io/exbankcardcore",
+					"$(PROJECT_DIR)/QRCodeWebTool/ScanCard/Tool/IDAndBankCard/libexidcard",
+					"$(PROJECT_DIR)/QRCodeWebTool/UMessage_Sdk_1.5.0a",
+				);
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.QRCodeWebTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "QRCodeWebTool/QRCodeWebTool-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		728743DF1ECC3E2F0029520C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QRCodeWebToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.besonit.QRCodeWebToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QRCodeWebTool.app/QRCodeWebTool";
+			};
+			name = Debug;
+		};
+		728743E01ECC3E2F0029520C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QRCodeWebToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.besonit.QRCodeWebToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QRCodeWebTool.app/QRCodeWebTool";
+			};
+			name = Release;
+		};
+		728743E21ECC3E2F0029520C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = QRCodeWebToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.besonit.QRCodeWebToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = QRCodeWebTool;
+			};
+			name = Debug;
+		};
+		728743E31ECC3E2F0029520C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = QRCodeWebToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.besonit.QRCodeWebToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = QRCodeWebTool;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		728743AE1ECC3E2E0029520C /* Build configuration list for PBXProject "QRCodeWebTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				728743D91ECC3E2F0029520C /* Debug */,
+				728743DA1ECC3E2F0029520C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		728743DB1ECC3E2F0029520C /* Build configuration list for PBXNativeTarget "QRCodeWebTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				728743DC1ECC3E2F0029520C /* Debug */,
+				728743DD1ECC3E2F0029520C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		728743DE1ECC3E2F0029520C /* Build configuration list for PBXNativeTarget "QRCodeWebToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				728743DF1ECC3E2F0029520C /* Debug */,
+				728743E01ECC3E2F0029520C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		728743E11ECC3E2F0029520C /* Build configuration list for PBXNativeTarget "QRCodeWebToolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				728743E21ECC3E2F0029520C /* Debug */,
+				728743E31ECC3E2F0029520C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 728743AB1ECC3E2E0029520C /* Project object */;
+}
